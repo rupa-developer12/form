@@ -1,0 +1,67 @@
+.containerr{
+background-color: rgb(13, 18, 19);
+display:flex;
+justify-content:center;
+align-items: center;
+}
+.classf{
+    width:50%;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:rgb(25, 27, 29);
+    background-color:rgb(255, 255, 255);
+    text-align:center;
+    padding:50px;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:50px;
+}
+.classt{
+    width:50%;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:rgb(29, 25, 25);
+    background-color: rgb(10, 230, 211);
+    text-align:center;
+    padding:50px;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:50px;}
+input{
+    outline:none;
+    border:none;
+    border-bottom:1px solid #000
+}
+select
+{
+    outline:none;
+    border:none;
+    border-bottom:1px solid #000;
+    width: 180px;
+}
+.input{
+ flex-direction: center;
+    justify-content: center;
+    display: flex;
+    width:600px;
+    height:300px;
+    gap:20px;
+
+}
+.div{
+    display:flex;
+     flex-direction: column;
+    justify-content: center;
+    width:300px ;
+}
+.label {
+    width:300px;
+    height:300px;
+ display:flex;
+     flex-direction: column;
+    justify-content: center;
+}

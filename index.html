@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./form.css">
+    <style>
+        label {
+            color: rgb(146, 27, 130);
+        }
+    
+    </style>
+</head>
+<body>
+    <div style="width:100%; height:100vh; background:linear-gradient(to right, #370617, #ffa7e9); display:flex; justify-content:center; align-items:center; padding:50px">
+        <form style="border:2px solid black; padding:30px; background-color:white; width: 400px;">
+            <div style="display:flex; flex-direction:column; gap:10px;">
+                <h1>Registration</h1>
+
+                <label for="name">Enter your Name:*</label>
+                <input style="border-radius:30px; padding:5px" type="text" placeholder="Enter your name" name="name" id="name" required>
+
+                <label for="mobile">Mobile*</label>
+                <input style="border-radius:20px; padding:5px" type="text" placeholder="Enter your mobile" name="mobile" id="mobile" required>
+
+                <label for="email">Email*</label>
+                <input style="border-radius:20px; padding:5px" type="email" placeholder="Enter your email" name="email" id="email" required>
+
+                <label for="address">Address*</label>
+                <input style="border-radius:20px; padding:5px" type="text" placeholder="Enter your address" name="address" id="address" required>
+
+                <label for="password">Password*</label>
+                <input style="border-radius:20px; padding:5px" type="password" placeholder="Enter your password" name="password" id="password" required>
+
+                <label for="confirm-password">Confirm Password*</label>
+                <input style="border-radius:20px; padding:5px" type="password" placeholder="Confirm your password" name="confirm-password" id="confirm-password" required>
+
+                <button type="submit" style="background-color: rgb(255, 0, 0); padding:10px; color:white; border:none; border-radius:10px; cursor:pointer;">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

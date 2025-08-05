@@ -1,0 +1,79 @@
+body {
+  background-color: hsl(0, 27%, 94%);
+}
+
+.main {
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+form {
+  background: rgb(233, 230, 230);
+  display: flex;
+  width: 30%;
+  height: 30%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+input {
+  padding: 10px 40px 10px 10px; /* space for 'forget' span on right */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+    width: 420px;
+}
+.head {
+  font-size: 30px;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 8px;
+  width: 420px;
+  border-radius: 10px;
+  background: rgb(10, 92, 216);
+  color: black;
+}
+
+.inputf {
+  position: relative;
+  margin-bottom: 20px;
+  width: 420px;
+}
+
+.inputf input[type="password"] {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* space for 'forget' span on right */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.inputf .forget {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.inputf .forget:hover {
+  text-decoration: underline;
+}

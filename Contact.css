@@ -1,0 +1,30 @@
+body{
+   background-color: white;
+      display: flex;
+  justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.main{
+  background-color: maroon;
+  display: flex;
+  justify-content: center;
+align-items: center;
+flex-direction: column;
+
+ 
+}
+.btn{
+   background-color: blue;
+      display: flex;
+  justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 25px;
+width: 50px;
+gap: 100px;
+
+}
+.classf{
+   
+}
